@@ -1,0 +1,21 @@
+{
+    "LogLevel": "INFO",
+    "LogPath": "./logs/bntradestat.log",
+    "BinanceAPIKey": "",
+    "BinanceSecretKey": "",
+    "Sources": [
+        {
+            "IP": "",
+            "Colo": false
+        }
+    ],
+    "InstIDs": [
+        "BTCUSDT",
+        "ETHUSDT"
+    ],
+    "MinAccuracy": 0.000001,
+    "RollingPeriodSeconds": 5,
+    "MinTradingTimes": 150,
+    "MinTradingVolume": 1000000,
+    "TradingStatusZMQIPC":  "tcp://*:25555"
+}

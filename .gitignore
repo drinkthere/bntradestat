@@ -1,0 +1,8 @@
+vendor/
+.idea
+bin/bntradestat
+bin/logs
+logs/
+*.DS_Store 
+*.env
+go-binance
